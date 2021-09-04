@@ -20,8 +20,10 @@ const nuaudit = new Nuaudit(
 
 `yarn start`
 
-3. Access the example at:
+3. Make a PUT request to run the example
 
-`http://localhost:3000`
-
-4. This page will list out trail records.
+```bash
+curl http://localhost:3000/item/1 \
+    --request PUT \
+    --data '{"name":"item","price":20}'
+```
