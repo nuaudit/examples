@@ -25,5 +25,6 @@ const nuaudit = new Nuaudit(
 ```bash
 curl http://localhost:3000/item/1 \
     --request PUT \
+    --header 'Content-Type: application/json' \
     --data '{"name":"item","price":20}'
 ```
