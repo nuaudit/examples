@@ -7558,21 +7558,21 @@ nth-check@^1.0.2:
   dependencies:
     boolbase "~1.0.0"
 
-nuaudit-browser-autogen@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/nuaudit-browser-autogen/-/nuaudit-browser-autogen-0.3.0.tgz#9253d083cd1f288dd6feb4620e4d8dfd704fdb34"
-  integrity sha512-NK748eH2LsyhBaY8BKu87WaQegWvxCtcv1VNfg+ED40+lQZ0J6pVweZfICgTdEU1AlMavwDGfSeibMxxP+ueUw==
+nuaudit-browser-autogen@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/nuaudit-browser-autogen/-/nuaudit-browser-autogen-0.17.0.tgz#3b4b043b87f31b8ae8d6fa7abb033c9b98900686"
+  integrity sha512-pWLkf/fNDO3VoztrYp/iiCuy6VfE/hsaLVIuXJ0Qw2CFHleTo8liIIk9/EJtGMTapTd9vIH4o9/yaHTmcUBgwQ==
   dependencies:
     es6-promise "^4.2.4"
     url-parse "^1.4.3"
     whatwg-fetch "^3.0.0"
 
-nuaudit-browser-sdk@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/nuaudit-browser-sdk/-/nuaudit-browser-sdk-0.3.1.tgz#2c8a288ac2094e5d6a75535d6e5e2d0b4aa06526"
-  integrity sha512-mzq/QYL9q2zP3wQReOCWCaWOV/fqfH6qZv6C4h2VsDQ5AoleRFNgPSxrNUqyhbH0Gd2Zye3PCjt89npdltLNXw==
+nuaudit-browser-sdk@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/nuaudit-browser-sdk/-/nuaudit-browser-sdk-0.17.0.tgz#415c3f2851363b3b761f3f0ad2f5772d0592cea9"
+  integrity sha512-2RohRAPGbfsXmTErWrYvm2CtqakhlMpwb8HXjfjJf4HQJICkpnH9lPZcDxoe+x/Fv8SikeEgA4+O3WT+hqEf5Q==
   dependencies:
-    nuaudit-browser-autogen "^0.3.0"
+    nuaudit-browser-autogen "^0.17.0"
 
 num2fraction@^1.2.2:
   version "1.2.2"
