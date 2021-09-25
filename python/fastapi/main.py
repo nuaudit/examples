@@ -28,5 +28,5 @@ def read_item(item_id: int, q: Optional[str] = None):
 @app.put("/items/{item_id}", response_model=Item)
 def update_item(item_id: int, item: Item):
     json_item = jsonable_encoder(item)
-    nuaudit.create_record(description="Updated Item", resource=json_item, identity={})
+    nuaudit.create_record(description="Updated Item", resource=json_item, actor={})
     return item
