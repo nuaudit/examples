@@ -22,6 +22,6 @@ nuaudit = Nuaudit(
 
 3. Use the FastAPI API Documentation page to submit a POST request. Access the documentation page at:
 
-`http://localhost:8000`
+`http://localhost:8000/docs`
 
 4. Use the Nuaudit console to verify the update.
