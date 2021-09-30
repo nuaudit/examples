@@ -6,13 +6,11 @@ Examples using Nuaudit SDKs
 
 | Framework | Location                         |
 | ---       | ---                              |
-| FastAPI   | [python/fastapi](python/fastapi) |
+| FastAPI   | [python/fastapi](https://github.com/nuaudit/examples/tree/main/python/fastapi) |
 
 ## Typescript
 
 | Framework | Location                                 |
 | ---       | ---                                      |
-| Express   | [typescript/express](typescript/express) |
-| React     | [typescript/react](typescript/react)     |
-
-## Javascript
+| Express   | [typescript/express](https://github.com/nuaudit/examples/tree/main/typescript/express) |
+| React     | [typescript/react](https://github.com/nuaudit/examples/tree/main/typescript/react)     |
